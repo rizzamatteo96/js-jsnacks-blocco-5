@@ -36,6 +36,66 @@ console.log(pesoMin);
 //TODO Calcola quanto pesano tutte le zucchine.
 
 
+var zucchine = [
+    {
+        varieta : 'a',
+        peso : 100,
+        lunghezza : 10
+    },
+    {
+        varieta : 'b',
+        peso : 250,
+        lunghezza : 18
+    },
+    {
+        varieta : 'c',
+        peso : 300,
+        lunghezza : 20
+    },
+    {
+        varieta : 'd',
+        peso : 180,
+        lunghezza : 15
+    },
+    {
+        varieta : 'e',
+        peso : 140,
+        lunghezza : 12
+    },
+    {
+        varieta : 'f',
+        peso : 400,
+        lunghezza : 25
+    },
+    {
+        varieta : 'g',
+        peso : 500,
+        lunghezza : 30
+    },
+    {
+        varieta : 'h',
+        peso : 380,
+        lunghezza : 22
+    },
+    {
+        varieta : 'i',
+        peso : 130,
+        lunghezza : 11
+    },
+    {
+        varieta : 'l',
+        peso : 600,
+        lunghezza : 35
+    }
+];
+
+var pesoTot = 0;
+for(var i = 0; i < zucchine.length; i++){
+    pesoTot += zucchine[i].peso;
+}
+
+console.log('peso totale zucchine = ' + pesoTot + 'gr');
+
 
 
 
